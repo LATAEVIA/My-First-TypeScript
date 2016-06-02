@@ -17,6 +17,7 @@ module ToDoList {
     phone: "555-555-7777"
   }
 
+  //we store each person object inside of an object called people, which we do export. This makes it easy to iterate over our people, or assign them tasks.
   export var people = {
     "diane": diane,
     "thor": thor,
